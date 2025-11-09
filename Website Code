@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drinx - Cocktail Machine</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fafafa;
+            color: #222;
+            text-align: center;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            padding: 25px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: auto;
+            padding: 25px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+        }
+
+        button {
+            background: black;
+            color: white;
+            padding: 10px 18px;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🍸 Welcome to Drinx</h1>
+    <p>Your smart cocktail machine assistant</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>How to Use the Machine</h2>
+        <p>1. Place a glass under the nozzle.<br>
+           2. Select your cocktail on the machine.<br>
+           3. Press <b>START</b> and enjoy.</p>
+    </div>
+
+    <div class="card">
+        <h2>Cleaning Guide</h2>
+        <p>Detach the removable parts and wash them with warm soapy water.<br>
+           Rinse the pumps with clean water for 10 seconds.</p>
+    </div>
+
+    <div class="card">
+        <h2>Popular Cocktails</h2>
+
+        <h3>🍹 Summer Breeze</h3>
+        <p>40% Orange juice – 40% Pineapple – 20% Sprite</p>
+
+        <h3>🍋 Sour Lemon</h3>
+        <p>60% Lemon – 40% Sparkling water</p>
+
+        <h3>🍓 Pink Dream</h3>
+        <p>40% Strawberry – 40% Apple – 20% Sprite</p>
+    </div>
+
+    <div class="card">
+        <h2>Create Your Own Cocktail</h2>
+        <p>Choose ingredients directly on the machine.</p>
+        <button>Start Creating</button>
+    </div>
+
+    <div class="card">
+        <h2>About Drinx</h2>
+        <p>Designed by engineering students to innovate beverage automation.</p>
+    </div>
+
+</div>
+
+</body>
+</html>
